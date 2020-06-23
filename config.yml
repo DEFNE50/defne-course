@@ -14,3 +14,9 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+    video: 'https://www.youtube.com/watch?v=h2p72yqINPs'
+  - title: New step
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
